@@ -8,7 +8,7 @@ export default createReactClass({
   render() {
     return (
       <section>
-        <h1 className='test'>Hey This Works!</h1>
+        
       </section>
     )
   }
