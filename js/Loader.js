@@ -4,7 +4,7 @@ var createReactClass = require("create-react-class")
 
 
 const runLoader = () => {
-  setTimeout(function(){ document.body.className+="loaded"; }, 2000);
+  setTimeout(function(){ document.body.className+="loaded"; }, 5000);
 }
 window.onload = runLoader;
 
@@ -14,6 +14,10 @@ export default createReactClass({
     return (
       <div id="loader-wrapper">
         <div id="loader"></div>
+        <div className="hexWrapper">
+          <span className="hexagon"></span>
+        </div>
+
         <div className="loader-section section-left"></div>
         <div className="loader-section section-right"></div>
       </div>
