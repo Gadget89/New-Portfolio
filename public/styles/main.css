@@ -34,7 +34,7 @@ li {
   position: relative;
   width: 300px;
   height: 173.21px;
-  background-color: #64C7CC;
+  background-color: #3F51B5;
   margin: 86.60px 0;
   display: block;
   /*left: 50%;*/
@@ -48,7 +48,7 @@ li {
   margin: -150px 0 0 -150px;
   display: block;
   left: 50%;
-  top: 30%;
+  top: 28.5%;
   z-index: 1001;
 }
 
@@ -63,13 +63,13 @@ li {
 
 .hexagon:before {
   bottom: 100%;
-  border-bottom: 86.60px solid #64C7CC;
+  border-bottom: 86.60px solid #3F51B5;
 }
 
 .hexagon:after {
   top: 100%;
   width: 0;
-  border-top: 86.60px solid #64C7CC;
+  border-top: 86.60px solid #3F51B5;
 }
 /*Loader*/
 #loader-wrapper {
@@ -90,7 +90,8 @@ li {
     margin: -75px 0 0 -75px;
     border-radius: 50%;
     border: 3px solid transparent;
-    border-top-color: #3498db;
+    border-top-color: white;
+    border-bottom-color: white;
     z-index: 1002;
     -webkit-animation: spin 2s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
     animation: spin 2s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
@@ -105,7 +106,8 @@ li {
     bottom: 5px;
     border-radius: 50%;
     border: 3px solid transparent;
-    border-top-color: #e74c3c;
+    border-top-color: white;
+    border-bottom-color: white;
     -webkit-animation: spin 3s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
       animation: spin 3s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
 }
@@ -119,9 +121,10 @@ li {
     bottom: 15px;
     border-radius: 50%;
     border: 3px solid transparent;
-    border-top-color: #f9c922;
+    border-top-color: white;
+    border-bottom-color: white;
     -webkit-animation: spin 1.5s linear infinite;
-      animation: spin 1.5s linear infinite;
+      animation: spin 1s linear infinite;
 }
 @-webkit-keyframes spin {
     0%   {
@@ -152,7 +155,7 @@ li {
     top: 0;
     width: 51%;
     height: 100%;
-    background: #222222;
+    background: lightgrey;
     z-index: 1000;
 }
 
@@ -194,4 +197,22 @@ li {
 
         -webkit-transition: all 0.3s 1s ease-out;
                         transition: all 0.3s 1s ease-out;
+}
+/*Responsive break points*/
+@media screen and (max-device-width : 480px) {
+  /*For mobile*/
+  .hexWrapper {
+    top: 40%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop*/
+}
+
+@media screen
+  and (min-device-width: 1200px)
+  and (max-device-width: 1400px) {
+  /*For Non-Retina Screens*/
+  .hexWrapper {
+    top: 25%;
 }
