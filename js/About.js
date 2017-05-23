@@ -7,12 +7,17 @@ export default createReactClass({
 
   render() {
     return (
-      <section className="hexagonPhotoWrapper">
-        <div className="hexagonPhoto">
-          <div className="hexTopPhoto"></div>
-          <div className="hexBottomPhoto"></div>
-        </div>
-      </section>
+      <article>
+        <article className="landing"></article>
+          <section className="hexagonPhotoWrapper">
+            <div className="hexagonPhoto">
+              <div className="hexTopPhoto"></div>
+              <div className="hexBottomPhoto"></div>
+            </div>
+          </section>
+      </article>
+
+
     )
   }
 })

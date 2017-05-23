@@ -12,8 +12,8 @@ export default createReactClass({
     return(
       <main className="main_wrapper">
         <Loader/>
-        <Nav/>
         <About/>
+        <Nav/>
       </main>
     )
   }
