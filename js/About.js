@@ -9,12 +9,14 @@ export default createReactClass({
     return (
       <article>
         <article className="landing"></article>
-          <section className="hexagonPhotoWrapper">
-            <div className="hexagonPhoto">
-              <div className="hexTopPhoto"></div>
-              <div className="hexBottomPhoto"></div>
-            </div>
-          </section>
+          <img className="hexBack" src="/styles/grid.png"></img>
+            <section className="hexagonPhotoWrapper">
+              <div className="hexagonPhoto">
+                <div className="hexTopPhoto"></div>
+                <div className="hexBottomPhoto"></div>
+              </div>
+            </section>
+
       </article>
 
 
