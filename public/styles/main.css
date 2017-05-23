@@ -1,11 +1,14 @@
 /*Main CSS*/
 /*1440x804px screen*/
+/*blue: #3F51B5*/
+/*yellow: #ffc107*/
 * {
   box-sizing: border-box;
 }
 body {
   margin: 0;
   background-color: black;
+  font-family: helvetica;
 }
 li {
   list-style: none;
@@ -27,6 +30,32 @@ li {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+.landingName {
+  color: #ffc107;
+  display: inline-block;
+  top: 0;
+  position: absolute;
+  font-size: 4em;
+  text-align: center;
+  text-shadow: 4px 2px black;
+  text-transform: uppercase;
+  width: 50%;
+  z-index: 10;
+}
+.landingTitle {
+  border-top: solid 2px #3F51B5;
+  color: white;
+  display: inline-block;
+  top: 4em;
+  padding-top: 1em;
+  position: absolute;
+  font-size: 2em;
+  text-align: center;
+  text-transform: uppercase;
+
+  width: 50%;
+  z-index: 10;
 }
 .hexBack {
   display: inherit;
@@ -63,6 +92,7 @@ li {
   position: fixed;
 }
 .hexagonPhotoWrapper {
+  filter: grayscale();
   position: absolute;
   width: 300px;
   height: 173.21px;

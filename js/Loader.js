@@ -4,7 +4,7 @@ var createReactClass = require("create-react-class")
 
 
 const runLoader = () => {
-  setTimeout(function(){ document.body.className+="loaded"; }, 1000);
+  setTimeout(function(){ document.body.className+="loaded"; }, 3000);
 }
 window.onload = runLoader;
 
