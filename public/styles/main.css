@@ -9,6 +9,7 @@ body {
   margin: 0;
   background-color: black;
   font-family: helvetica;
+  min-height: 100em;
 }
 li {
   list-style: none;
@@ -70,7 +71,7 @@ li {
 
 /*Nav controls*/
 .nav_button {
-  color: teal;
+  color: #ffc107;
   cursor: pointer;
   display: inline-block;
   float: left;
@@ -174,7 +175,7 @@ li {
   position: relative;
   width: 300px;
   height: 173.21px;
-  background-color: #3F51B5;
+  background-color: #ffc107;
   margin: 86.60px 0;
   display: block;
   /*left: 50%;*/
@@ -204,13 +205,13 @@ li {
 
 .hexagon:before {
   bottom: 100%;
-  border-bottom: 86.60px solid #3F51B5;
+  border-bottom: 86.60px solid #ffc107;
 }
 
 .hexagon:after {
   top: 100%;
   width: 0;
-  border-top: 86.60px solid #3F51B5;
+  border-top: 86.60px solid #ffc107;
 }
 
 #loader-wrapper {
@@ -344,49 +345,25 @@ li {
   .hexBack {
     height: 38%;
   }
-  .hexWrapper {
-    position: relative;
-    width: 500px;
-    height: 288.68px;
-    margin: -250px 0 0 -250px;
-    display: block;
-    left: 50%;
-    top: 4.9%;
-    z-index: 1001;
+  .landingName {
+    top: 1.7em;
+    width: 45%;
   }
+  .landingTitle {
+    top: 10em;
+    width: 45%;
+  }
+
   .hexagon {
-  position: relative;
-  width: 500px;
-  height: 288.68px;
-  background-color: #3F51B5;
-  margin: 144.34px 0;
+    display: none;
 }
 
-.hexagon:before,
-.hexagon:after {
-  content: "";
-  position: absolute;
-  width: 0;
-  border-left: 250px solid transparent;
-  border-right: 250px solid transparent;
-}
-
-.hexagon:before {
-  bottom: 100%;
-  border-bottom: 144.34px solid #3F51B5;
-}
-
-.hexagon:after {
-  top: 100%;
-  width: 0;
-  border-top: 144.34px solid #3F51B5;
-}
   /*Mobile Hex Photo*/
   .hexagonPhotoWrapper {
     width: 500px;
     height: 288.68px;
     margin: -250px 0 0 -250px;
-    left: 50%;
+    left: 70%;
     top: 17.5%;
 
   }
