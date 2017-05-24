@@ -5,6 +5,9 @@
 * {
   box-sizing: border-box;
 }
+a {
+  text-decoration: none;
+}
 body {
   margin: 0;
   background-color: black;
@@ -14,6 +17,7 @@ body {
 li {
   list-style: none;
 }
+
 .landing {
   background: url(/styles/new.jpg);
   background-size: cover;
@@ -74,23 +78,49 @@ li {
   color: #ffc107;
   cursor: pointer;
   display: inline-block;
-  float: left;
+  float: right;
   font-size: 1.5em;
-  margin: 0 1em;
+  margin: 0 0.5em;
   text-decoration: none;
 }
 
 .nav_button:hover {
-  text-decoration: underline;
+  background-color: black;
+  border-radius: 2em;
+  border: solid 2px #3F51B5;
+  color: white;
+  cursor: pointer;
+  padding: 0.2em 1em;
+  transition: color 0.6s, background-color 0.6s;
 }
-.nav_wrapper {
-  border-bottom: solid grey 1px;
+.nav_wrapper_background {
+  background-color: black;
   display: inline-block;
-  float: right;
+  /*left: 59%;*/
   height: 4em;
   width: 100%;
-  text-align: right;
+  opacity: 0.5;
   position: fixed;
+  top: 0;
+  z-index: 799;
+}
+.nav_wrapper {
+  display: inline-block;
+  /*left: 59%;*/
+  height: 4em;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 800;
+}
+.nav_name {
+  color: #ffc107;
+  display: none;
+  left: 1em;
+  position: fixed;
+  top: 0;
+  text-transform: uppercase;
+  z-index: 801;
 }
 .hexagonPhotoWrapper {
   filter: grayscale();
@@ -443,4 +473,7 @@ li {
 }
 .hexagonPhotoWrapper {
   top: 46%;
+}
+.nav_wrapper {
+  left: 0;
 }
