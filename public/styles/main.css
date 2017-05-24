@@ -12,12 +12,14 @@ body {
   margin: 0;
   background-color: black;
   font-family: helvetica;
-  min-height: 100em;
+  min-height: auto;
 }
 li {
   list-style: none;
 }
-
+#disabled_element {
+  display: none;
+}
 .landing {
   background: url(/styles/new.jpg);
   background-size: cover;
