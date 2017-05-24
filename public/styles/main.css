@@ -58,7 +58,6 @@ li {
   font-size: 2em;
   text-align: center;
   text-transform: uppercase;
-
   width: 50%;
   z-index: 10;
 }
@@ -79,9 +78,10 @@ li {
   cursor: pointer;
   display: inline-block;
   float: right;
-  font-size: 1.5em;
+  font-size: 1em;
   margin: 0 0.5em;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 .nav_button:hover {
@@ -372,6 +372,13 @@ li {
 /*Responsive break points*/
 @media screen and (max-device-width : 480px) {
   /*For mobile*/
+  #disabled_element {
+    display: none;
+  }
+  .nav_button {
+    font-size: 1.5em;
+    margin: 0 1em;
+  }
   .hexBack {
     height: 38%;
   }
