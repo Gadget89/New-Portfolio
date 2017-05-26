@@ -7,7 +7,10 @@ export default createReactClass({
   render() {
     return (
       <section>
-        <h1 className="heading_txt">Error 404: Page not found</h1>
+        <h1 className="heading_txt">portfolio</h1>
+        <article className="portfolio_wrapper">
+          
+        </article>
       </section>
     )
   }

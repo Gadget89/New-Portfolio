@@ -1,12 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router'
+import Loader from './Loader'
 import Landing from './Landing'
 import About from './About'
-import Loader from './Loader'
+import Portfolio from './Portfolio'
 import Nav from './Nav'
 
 var createReactClass = require("create-react-class")
-
 
 export default createReactClass({
   render() {
@@ -15,6 +15,7 @@ export default createReactClass({
         <Loader/>
         <Landing/>
         <About/>
+        <Portfolio/>
         <Nav/>
       </main>
     )
