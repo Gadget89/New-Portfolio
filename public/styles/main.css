@@ -20,6 +20,9 @@ li {
 #disabled_element {
   display: none;
 }
+.test {
+  color: white;
+}
 .landing {
   background: url(/styles/new.jpg);
   background-size: cover;
@@ -118,7 +121,7 @@ li {
 .nav_name {
   color: #ffc107;
   display: none;
-  left: 1em;
+  left: 10px;
   position: fixed;
   top: 0;
   text-transform: uppercase;
