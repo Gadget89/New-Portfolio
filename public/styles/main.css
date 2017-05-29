@@ -11,7 +11,8 @@ a {
 }
 body {
   margin: 0;
-  background-color: black;
+  background-color: grey;
+  /*background-color: black;*/
   font-family: helvetica;
   min-height: auto;
 }
@@ -23,9 +24,12 @@ li {
 }
 .backdrop {
   z-index: 1;
+  margin-left: -25%;
+  width: 900px;
 }
 .front {
-  margin-top: -800px;
+  margin-top: -577px;
+  width: 600px;
   z-index: 2;
 }
 .heading_txt {
@@ -49,9 +53,9 @@ li {
   color: white;
   display: inline-block;
   line-height: 2;
-  margin-left: 25%;
+  /*margin-left: 25%;*/
   min-height: 700px;
-  width: 50%;
+  width: 100%;
 }
 .landing {
   background: url(/styles/new.jpg);

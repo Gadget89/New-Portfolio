@@ -10,7 +10,7 @@ export default createReactClass({
         <h1 className="heading_txt">portfolio</h1>
         <article className="portfolio_wrapper">
           <img
-            className="backdrop" src="/styles/me.jpg">
+            className="backdrop" src="/styles/book1.jpg">
           </img>
           <img
             className="front" src="/styles/new_hex7.png">
