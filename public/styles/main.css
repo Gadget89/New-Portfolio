@@ -718,3 +718,14 @@ img {
     left: 0;
   }
 }
+
+@media screen
+  and (min-device-width: 1450px) {
+    .hexBack {
+      height: 111%;
+    }
+    
+    .landing {
+      height: 915px;
+    }
+  }
