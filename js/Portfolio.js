@@ -158,7 +158,7 @@ export default createReactClass({
                   className="nav_button"
                   target="_blank"
                   onClick={this.prevDivs}>
-                  slide left
+                  last project
                 </a>
               </span>
               <span
@@ -167,7 +167,7 @@ export default createReactClass({
                   className="nav_button"
                   target="_blank"
                   onClick={this.plusDivs}>
-                  slide right
+                  next project
                 </a>
               </span>
             </div>
