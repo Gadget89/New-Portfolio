@@ -563,6 +563,10 @@ img {
     display: none;
   }
 
+  .nav_bar {
+    padding-top: 43em;
+  }
+
   .nav_button {
     font-size: 1.5em;
     margin: 0 1em;
@@ -656,6 +660,30 @@ img {
   z-index: 2;
   background: inherit;
 }
+
+.hex_overlay {
+  margin-left: 12em;
+  margin-top: 0;
+}
+
+.first_photo,
+.mySlides {
+  margin-left: 4.5em;
+}
+
+.slider_nav {
+  margin-top: 34em;
+  margin-bottom: 6em;
+  width: 40em;
+}
+
+.caption {
+  margin-right: 14em;
+}
+
+.article_title_left {
+  font-size:
+}
 }
 
 @media only screen and (min-width: 768px) {
@@ -666,14 +694,27 @@ img {
   and (min-device-width: 1200px)
   and (max-device-width: 1400px) {
   /*For Non-Retina Screens*/
-.hexWrapper {
-  top: 24.6%;
-}
 
-.hexagonPhotoWrapper {
-  top: 46%;
-}
 
-.nav_wrapper {
-  left: 0;
+  .hexWrapper {
+    top: 24.6%;
+  }
+
+  .hexagonPhotoWrapper {
+    top: 46%;
+  }
+
+  .slider_nav {
+    margin-left: 44em;
+    margin-top: 6em;
+  }
+
+  .hex_overlay,
+  .projOverlay_left {
+    margin-left: 6em;
+  }
+
+  .nav_wrapper {
+    left: 0;
+  }
 }
