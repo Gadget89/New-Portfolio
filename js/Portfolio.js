@@ -56,7 +56,7 @@ export default createReactClass({
                 <img
                   className="projOverlay_image"
                   className="slide_image"
-                  src="/styles/book1.jpg">
+                  src="/styles/laptop2.jpg">
                 </img>
               </div>
             </a>
@@ -93,7 +93,7 @@ export default createReactClass({
                 <img
                   className="projOverlay_image"
                   className="slide_image"
-                  src="/styles/laptop2.jpg">
+                  src="/styles/book1.jpg">
                 </img>
               </div>
             </a>
