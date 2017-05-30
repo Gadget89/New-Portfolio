@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router'
 import Loader from './Loader'
 import Landing from './Landing'
+import SideNav from './SideNav'
 import About from './About'
 import Portfolio from './Portfolio'
 import Nav from './Nav'
@@ -14,6 +15,7 @@ export default createReactClass({
       <main className="main_wrapper">
         <Loader/>
         <Landing/>
+        <SideNav/>
         <About/>
         <Portfolio/>
         <Nav/>

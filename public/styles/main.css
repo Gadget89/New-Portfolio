@@ -22,13 +22,53 @@ li {
 #disabled_element {
   display: none;
 }
-.backdrop {
+/*.backdrop {
   display: block;
   z-index: 1;
   margin-left: 9em;
   margin-top: 2em;
   width: 567px;
+}*/
+/*SideNav content*/
+.hex_top {
+width: 0;
+border-bottom: 0.938em solid #3F51B5;
+border-left: 1.625em solid transparent;
+border-right: 1.625em solid transparent;
 }
+.hex_middle {
+width: 3.250em;
+height: 1.875em;
+background-color: #3F51B5;
+}
+.hex_bottom {
+width: 0;
+border-top: 0.938em solid #3F51B5;
+border-left: 1.625em solid transparent;
+border-right: 1.625em solid transparent;
+margin-left: 0px;
+}
+.nav_bar {
+  margin-right: 1.5em;
+  margin-top: auto;
+  margin-bottom: auto;
+  display: inline-block;
+  position: fixed;
+  padding-top: 13em;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 4em;
+}
+.nav_button {
+  color: white;
+  transition: color 0.8s ease;
+}
+.nav_button:hover {
+  color: #FFA726;
+}
+/*SideNav content*/
+/*carousel content*/
 .hex_overlay {
   margin-left: 8em;
   margin-top: 1em;
