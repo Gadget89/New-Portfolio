@@ -59,13 +59,15 @@ margin-left: 0px;
   text-align: center;
   top: 0;
   width: 4em;
+  z-index: 4;
 }
 .nav_button {
   color: white;
+  cursor: pointer;
   transition: color 0.8s ease;
 }
 .nav_button:hover {
-  color: #FFA726;
+  color: #ffc107;
 }
 /*SideNav content*/
 /*carousel content*/
@@ -74,7 +76,7 @@ margin-left: 0px;
   margin-top: 1em;
   position: absolute;
   width: 600px;
-  z-index: 5;
+  z-index: 50;
 }
 
 /*imported from carousel*/
@@ -82,14 +84,14 @@ margin-left: 0px;
    height: 26em;
    display: none;
    margin-left: 1em;
-   width: 100%;
+   width: 93%;
 }
 .first_photo {
   display: inline-block;
   /*margin-top: -40em;*/
   margin-left: 1em;
   height: 26em;
-  width: 100%;
+  width: 93%;
   position: relative;
   z-index: 4;
 }
@@ -120,10 +122,11 @@ margin-left: 0px;
   display: inline-block;
   position: relative;
   float: right;
-  margin-right: 8em;
+  padding-right: 2em;
   margin-top: 2em;
   width: 31em;
   height: 24em;
+  z-index: 45;
 }
 /*.hex_top_slider {
 width: 0;
@@ -271,9 +274,9 @@ margin-left: 0px;
 }
 
 .nav_button:hover {
-  background-color: black;
+  /*background-color: black;*/
   border-radius: 2em;
-  border: solid 2px #3F51B5;
+  /*border: solid 2px #3F51B5;*/
   color: white;
   cursor: pointer;
   padding: 0.2em 1em;
