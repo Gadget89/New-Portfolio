@@ -25,7 +25,6 @@ export default createReactClass({
             className="hex_bottom">
           </div>
         </a>
-
         <a
           className="nav_button"
           target="_blank"

@@ -10,12 +10,15 @@ export default createReactClass({
   render() {
     return (
       <section>
-        <header className="nav_wrapper_background">
+        <header
+          className="nav_wrapper_background">
         </header>
-        <h3 className="nav_name">
+        <h3
+          className="nav_name">
           nicolas roybal
         </h3>
-        <header className="nav_wrapper">
+        <header
+          className="nav_wrapper">
           <ul>
             <li>
               <a

@@ -12,14 +12,24 @@ export default createReactClass({
 
   render() {
     return (
-      <div id="loader-wrapper">
-        <div id="loader"></div>
-        <div className="hexWrapper">
-          <span className="hexagon"></span>
-        </div>
+      <div
+        id="loader-wrapper">
+        <div
+          id="loader">
 
-        <div className="loader-section section-left"></div>
-        <div className="loader-section section-right"></div>
+        </div>
+        <div
+          className="hexWrapper">
+          <span
+            className="hexagon">
+          </span>
+        </div>
+        <div
+          className="loader-section section-left">
+        </div>
+        <div
+          className="loader-section section-right">
+        </div>
       </div>
     )
   }

@@ -38,7 +38,8 @@ export default createReactClass({
           className="heading_txt">
           portfolio
         </h1>
-        <article className="portfolio_wrapper">
+        <article
+          className="portfolio_wrapper">
           <img
             className="hex_overlay"
             src="/styles/new_hex7.png">
