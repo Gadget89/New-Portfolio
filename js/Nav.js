@@ -1,9 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router'
-import {TweenMax, TweenLite} from "gsap";
 var createReactClass = require("create-react-class")
 
-// TweenLite.to("nav_name", 6, {left: 600});
 
 export default createReactClass({
 
