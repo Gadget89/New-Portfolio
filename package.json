@@ -18,14 +18,13 @@
     "babel-preset-react": "^6.16.0",
     "ejs": "2.4.1",
     "express": "4.13.3",
+    "gsap": "^1.19.1",
     "react": "^15.4.1",
     "react-dom": "^15.4.1",
     "react-fontawesome": "^1.5.0",
     "react-router": "^3.0.2",
+    "scrollmagic": "^2.0.5",
     "webpack": "^1.14.0"
-
   },
-  "devDependencies": {
-
-  }
+  "devDependencies": {}
 }
