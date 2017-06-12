@@ -2,6 +2,17 @@ import React from 'react'
 import { Link } from 'react-router'
 var createReactClass = require("create-react-class")
 
+var controller = new ScrollMagic.Controller()
+var navHook = new ScrollMagic.Scene({
+        duration: 0,
+        offset: 225,
+        triggerHook: "onCenter",
+        reverse: false
+})
+.setClassToggle("#navHook", "active")
+.addIndicators()
+.addTo(controller);
+
 
 export default createReactClass({
 
@@ -11,8 +22,10 @@ export default createReactClass({
         <header
           className="nav_wrapper_background">
         </header>
+        <toggleName/>
         <h3
-          className="nav_name">
+          className="nav_name"
+          id="navHook">
           nicolas roybal
         </h3>
         <header

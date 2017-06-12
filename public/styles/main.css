@@ -29,6 +29,9 @@ li {
 img {
   filter: grayscale();
 }
+.active {
+  visibility: visible;
+}
 
 /*SideNav content*/
 
@@ -289,7 +292,7 @@ img {
 
 .nav_name {
   color: #ffc107;
-  display: none;
+  visibility: hidden;
   left: 10px;
   position: fixed;
   top: 0;
